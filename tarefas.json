@@ -1,0 +1,12 @@
+[
+    {
+        "id": "e3404354-6b9f-43e4-9c5f-bd305adc0f6d",
+        "titulo": "Estudar Flask",
+        "descricao": "Criar API para tarefas",
+        "prioridade": "alta",
+        "categoria": "programacao",
+        "data_criacao": "2025-05-26T17:48:33.254193",
+        "data_limite": "2025-06-01",
+        "status": "pendente"
+    }
+]
