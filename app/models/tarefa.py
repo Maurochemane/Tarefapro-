@@ -5,7 +5,7 @@ from datetime import datetime
 
 class Tarefa:
     def __init__(self, titulo, descricao, prioridade, categoria, data_limite):
-        self.id = str(uuid.uuid4())  # ID único automático
+        self.id = str(uuid.uuid1()) # ID único automático
         self.titulo = titulo
         self.descricao = descricao
         self.prioridade = prioridade  # baixa, média, alta

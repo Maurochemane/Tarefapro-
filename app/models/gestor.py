@@ -30,6 +30,10 @@ class GestorDeTarefas:
     def salvar_tarefas(self):
         with open(self.caminho_arquivo, "w") as f:
             json.dump([t.to_dict() for t in self.tarefas], f, indent=4)
+    
+    def partilhar_tarefas(self, caminho_destino):
+        with open(caminho_destino, "w") as f:
+            json.dump([t.to_dict() for t in self.tarefas], f, indent=4)
 
     def carregar_tarefas(self):
         if os.path.exists(self.caminho_arquivo):
